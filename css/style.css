@@ -1,0 +1,675 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto:500");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
+@media screen and (max-width: 64em) {
+  header {
+    position: relative;
+    background: rgba(239, 233, 219, 0.1);
+    padding: 0 0 24.6% 0;
+    background: url("../img/bgDesktop.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    header h1 {
+      font: 500 77.2px "Roboto";
+      margin: 130px 0 0 0;
+      text-align: center;
+      color: #222222; }
+    header p {
+      font: 33.7px/1.25 "Helvetica";
+      color: #222222;
+      text-align: center;
+      margin: 60px 0 0 0; }
+    header .hidden {
+      display: none; }
+    header .showTablet {
+      font: 33px/1.25 Helvetica;
+      text-align: center; }
+
+  .header-line {
+    height: 13%;
+    width: 100%; }
+
+  footer {
+    background: #1e1e1e;
+    padding: 35px; }
+    footer p {
+      font: 300 12px "Roboto";
+      color: rgba(242, 242, 242, 0.102);
+      text-align: left;
+      float: left;
+      display: block;
+      top: 50%;
+      position: relative;
+      transform: translateY(-50%); }
+
+  #hamburger_menu {
+    height: 24px;
+    width: 30px;
+    float: right;
+    margin: 27px 25px 0 0; }
+
+  .line1, .line2, .line3 {
+    border-bottom: 3px solid black;
+    margin: 0 0 6px 0;
+    border-color: #000333;
+    border-radius: 5px; }
+
+  .logo {
+    float: left;
+    margin: 26px 0 26px 56px; }
+
+  nav {
+    display: none;
+    position: absolute;
+    background: rgba(38, 38, 38, 0.98);
+    width: 100%;
+    height: calc(100% - 90px);
+    z-index: 500; }
+    nav ul {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      nav ul li {
+        text-align: center;
+        display: block; }
+        nav ul li a {
+          font: 300 24px/3.25 "Roboto";
+          color: #cccccc;
+          text-align: center;
+          text-decoration: none; }
+
+  .followUsBttm {
+    position: absolute;
+    width: 100%;
+    bottom: 35px; }
+    .followUsBttm span {
+      float: left;
+      font: 400 16px "Roboto";
+      color: rgba(204, 204, 204, 0.502);
+      margin: 0 0 0 20px;
+      text-align: center;
+      letter-spacing: 5px; }
+    .followUsBttm img {
+      margin: 0 27px 0 0;
+      float: right; }
+
+  #jobsDescription {
+    font-size: 0; }
+
+  .sectionBg {
+    display: inline-block;
+    background: #ededed;
+    width: 33.3%;
+    padding: 0 0 65px 0; }
+
+  .sectionNoBg {
+    display: inline-block;
+    width: 33.3%;
+    padding: 0 0 65px 0; }
+
+  .logoClass {
+    display: block;
+    position: relative;
+    top: 48px;
+    margin: 0 auto;
+    vertical-align: top; }
+
+  .contentText {
+    margin: 34px 11px 0px 11px;
+    top: 170px;
+    font: 300 24px/1.647 "Roboto";
+    color: #666666;
+    text-align: center; }
+
+  .line {
+    opacity: 0.2;
+    width: 50px;
+    border-bottom: 2px solid #000;
+    margin: 32px auto 0 auto; }
+
+  .sectionHeadlines {
+    display: block;
+    margin: 99px 0 0 0;
+    font: 700 28.2px/0.851 "Roboto";
+    color: #222222;
+    text-align: center; }
+
+  .sectionPoslovi {
+    padding: 230px 100px 135px 100px; }
+
+  .smallHeadings {
+    display: none; }
+
+  .smallHeadingsTablet {
+    font: 400 14px "Roboto";
+    color: #999999;
+    text-align: center; }
+
+  .poslovi {
+    font: 400 50px "Roboto";
+    color: #222222;
+    text-align: center;
+    margin: 20px 0 0 0; }
+
+  .lineRed {
+    width: 56px;
+    border-bottom: 2px solid #c41230;
+    margin: 38px auto 0 auto; }
+
+  .jobsSectionWithBg {
+    position: relative;
+    padding: 30px 0 38px 92px; }
+
+  .jobsSectionNoBg {
+    position: relative;
+    background: #222222;
+    padding: 30px 0 38px 92px; }
+
+  .tabletColorTextProjectMenager {
+    color: #f2f2f2 !important; }
+
+  .tabletHoverProjectMenager {
+    display: none;
+    font: 400 14px "Roboto";
+    position: absolute;
+    color: #f2f2f2 !important;
+    width: 165px;
+    height: 44px;
+    padding: 0;
+    border: 2px solid #f2f2f2;
+    border-radius: 2px;
+    text-align: center;
+    background: transparent;
+    letter-spacing: 2px;
+    top: 50%;
+    right: 9.18%;
+    transform: translate(0%, -50%); }
+
+  .posloviText {
+    margin: 41px 30px 80px 30px;
+    text-align: center;
+    font: 300 24px/1.5 "Roboto";
+    color: #222222; }
+
+  .posloviHover {
+    display: none;
+    position: absolute !important;
+    width: 165px;
+    height: 44px;
+    border: 2px solid #222222;
+    border-radius: 2px;
+    text-align: center;
+    background: transparent;
+    position: relative;
+    top: 50%;
+    right: 9.18%;
+    transform: translate(0%, -50%); }
+
+  .posloviHoverText {
+    font: 400 14px "Roboto";
+    color: #222222;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 0; }
+
+  .html_css_js {
+    display: none; }
+
+  .skills {
+    border: 1px solid #bbbbbb;
+    border-radius: 2px;
+    font: 400 14px "Roboto";
+    color: #c41230;
+    padding: 12px 13px;
+    text-align: center;
+    margin: 0 7px 0 0; }
+
+  .skillsHolder {
+    margin: 33px 0 0 0; }
+
+  .skillsHolder:first-child {
+    margin: 0 0 0 15px; }
+
+  .jobsHeading {
+    display: block;
+    font: 500 18px "Roboto";
+    color: #222222;
+    text-align: left; }
+
+  .jobsText {
+    font: 300 15px/1.56 "Roboto";
+    color: #222222;
+    text-align: left;
+    margin: 20px 0 0 0;
+    width: 44.7%; }
+
+  #loadMoreJobs {
+    margin: 76px auto 0 auto;
+    display: block;
+    text-align: center;
+    background-color: rgba(215, 215, 215, 0.42);
+    height: 52px;
+    width: 222px;
+    border: none; }
+    #loadMoreJobs .ucitaj_jos_pozicija {
+      font: 400 14px "Roboto";
+      color: #333333; }
+
+  .digitalMediaCompany {
+    font: 400 50px "Roboto";
+    color: #222222;
+    text-align: center;
+    margin: 40px auto; }
+
+  .digitalMediaCompanyText {
+    font: 300 18px/1.667 "Roboto";
+    color: #222222;
+    text-align: justify;
+    margin: 45px 23px; }
+
+  .followUs {
+    text-align: center;
+    margin: 150px 0 0 0;
+    padding: 0 0 57px 0; }
+    .followUs p {
+      font: 400 14px "Roboto";
+      color: #999999; }
+    .followUs div {
+      margin: 0 auto;
+      width: 188px; }
+      .followUs div .twitter {
+        padding: 15px;
+        float: left; }
+      .followUs div .facebook {
+        padding: 15px 15px 15px 0; }
+
+  #contact {
+    background-color: #222222;
+    padding: 100px 30px;
+    font-size: 0; }
+
+  .contactHeading {
+    font: 400 16px "Roboto";
+    color: #f2f2f2;
+    margin: 0 0 30px 0; }
+
+  .contactHeading:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 27px;
+    background-color: transparent;
+    background: url("../img/locationPointer.png");
+    left: 18px;
+    top: 25%;
+    transform: translate(-5px, 5px); }
+
+  .address {
+    font: 400 15px/1.6 "Roboto";
+    color: #666666;
+    text-align: left; }
+
+  .contactInfo {
+    display: inline-block;
+    width: 33.3%;
+    height: 100%;
+    vertical-align: top; }
+
+  .settingInLine {
+    position: relative;
+    top: -9.1%; }
+
+  .mobileSocialContact {
+    display: none; }
+
+  .twitterBttmTablet {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 23px; }
+
+  .linkedInTablet {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 30px; }
+
+  .website_linkTablet {
+    display: inline-block;
+    float: right;
+    font: 300 14px/2.5 "Roboto";
+    color: #666666; }
+
+  .tabletContactInFooter {
+    position: relative;
+    float: right;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%); } }
+@media screen and (max-width: 320px) {
+  header {
+    position: relative;
+    background: #efe9db;
+    padding-bottom: 35.8%;
+    background: url("../img/bgImg.png") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+    header h1 {
+      font: 500 375% "Roboto";
+      margin-top: 128px;
+      text-align: center;
+      color: #222222; }
+    header p {
+      font: 400 20px "Roboto";
+      text-align: center;
+      margin-top: 60px; }
+    header .hidden {
+      display: inline;
+      font: 400 20px "Roboto";
+      text-align: center;
+      margin-top: 60px; }
+    header .showTablet {
+      display: none; }
+
+  .header-line {
+    height: 69px;
+    width: 100%; }
+
+  footer {
+    background: #1e1e1e;
+    padding: 13px 0; }
+    footer p {
+      display: inline;
+      font: 300 12px "Roboto";
+      color: rgba(242, 242, 242, 0.102);
+      text-align: center;
+      float: none;
+      position: static;
+      top: 0;
+      transform: none; }
+
+  #hamburger_menu {
+    height: 24px;
+    width: 30px;
+    float: right;
+    margin: 23px 20px 0 0; }
+
+  .line1, .line2, .line3 {
+    border-bottom: 3px solid black;
+    margin: 0 0 6px 0;
+    border-color: #000333;
+    border-radius: 5px; }
+
+  .logo {
+    float: left;
+    margin: 13px 0 0 26px; }
+
+  nav {
+    display: none;
+    position: absolute;
+    background: rgba(38, 38, 38, 0.98);
+    width: 100%;
+    height: calc(100% - 69px);
+    z-index: 500; }
+    nav ul {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      nav ul li {
+        text-align: center;
+        display: block; }
+        nav ul li a {
+          font: 300 24px/3.25 "Roboto";
+          color: #cccccc;
+          text-align: center;
+          text-decoration: none; }
+
+  .followUsBttm {
+    position: absolute;
+    width: 100%;
+    bottom: 35px; }
+    .followUsBttm span {
+      float: left;
+      font: 400 16px "Roboto";
+      color: rgba(204, 204, 204, 0.502);
+      margin-left: 20px;
+      text-align: center;
+      letter-spacing: 5px; }
+    .followUsBttm img {
+      margin-right: 27px;
+      float: right; }
+
+  .sectionBg {
+    background: #ededed;
+    padding-bottom: 54px; }
+
+  .sectionNoBg {
+    padding-bottom: 54px; }
+
+  .logoClass {
+    display: block;
+    position: relative;
+    top: 54px;
+    margin: 0 auto; }
+
+  .contentText {
+    margin: 34px 11px 0px 11px;
+    top: 170px;
+    font: 300 18px/1.667 "Roboto";
+    color: #666666;
+    text-align: center; }
+
+  .line {
+    opacity: 0.2;
+    width: 50px;
+    border-bottom: 2px solid #000/LINES;
+    margin: 32px auto 0 auto; }
+
+  .lineRed {
+    width: 56px;
+    border-bottom: 2px solid #c41230;
+    margin: 38px auto 0 auto; }
+
+  .sectionHeadlines {
+    display: block;
+    margin-top: 99px;
+    font: 700 20px "Roboto";
+    letter-spacing: 5px;
+    color: #222222;
+    text-align: center; }
+
+  .sectionPoslovi {
+    width: 100%; }
+
+  .smallHeadings {
+    font: 400 14px "Roboto";
+    color: #999999;
+    text-align: center;
+    margin-top: 0; }
+
+  .smallHeadingsTablet {
+    display: none; }
+
+  .poslovi {
+    font: 500 40px "Roboto";
+    color: #222222;
+    text-align: center;
+    margin-top: 20px; }
+
+  .posloviHover {
+    display: none; }
+
+  .jobsSectionWithBg {
+    background: #ededed;
+    padding: 30px 0 38px 15px; }
+
+  .jobsSectionNoBg {
+    padding: 30px 0 38px 15px;
+    background: none !important; }
+
+  .tabletColorTextProjectMenager {
+    color: #f2f2f2 !important; }
+
+  .tabletHoverProjectMenager {
+    display: none;
+    position: absolute !important;
+    color: #222222 !important;
+    width: 165px;
+    height: 44px;
+    border-width: 2px solid #f2f2f2 !important;
+    border-radius: 2px;
+    text-align: center;
+    background: transparent;
+    position: relative;
+    top: 50%;
+    right: 9.18%;
+    transform: translate(0%, -50%);
+    display: none;
+    color: #f2f2f2 !important; }
+
+  .posloviText {
+    margin: 41px 30px 80px 30px;
+    text-align: center;
+    font: 300 20px "Roboto";
+    color: #222222;
+    line-height: 1.5; }
+
+  .html_css_js {
+    display: inline-block;
+    font: 300 14px "Roboto";
+    color: #c41230 !important;
+    text-align: left;
+    margin: 20px 0 0 0; }
+
+  .skillsHolder {
+    display: none; }
+
+  .jobsHeading {
+    display: block;
+    font: 500 18px "Roboto";
+    color: #222222 !important;
+    text-align: left; }
+
+  .jobsText {
+    font: 300 15px/1.56 "Roboto";
+    color: #222222 !important;
+    line-height: 1.333;
+    text-align: left;
+    margin-top: 20px;
+    width: auto; }
+
+  #loadMoreJobs {
+    margin: 76px auto 0 auto;
+    display: block;
+    text-align: center;
+    background-color: rgba(215, 215, 215, 0.42);
+    height: 52px;
+    width: 222px;
+    border: none; }
+    #loadMoreJobs .ucitaj_jos_pozicija {
+      font: 400 14px "Roboto";
+      color: #333333;
+      letter-spacing: 2px; }
+
+  .digitalMediaCompany {
+    font: 500 40px "Roboto";
+    color: #222222;
+    text-align: center;
+    width: 188px;
+    margin: 40px auto; }
+
+  .digitalMediaCompanyText {
+    font: 300 18px "Roboto";
+    color: #222222;
+    text-align: left;
+    line-height: 1.667;
+    margin: 45px 23px; }
+
+  .followUs {
+    text-align: center;
+    margin: 150px 0 0 0;
+    padding: 0 0 57px 0; }
+    .followUs p {
+      font: 400 14px "Roboto";
+      color: #999999; }
+    .followUs div {
+      margin: 0 auto;
+      width: 188px; }
+      .followUs div .twitter {
+        padding: 15px;
+        float: left; }
+      .followUs div .facebook {
+        padding: 15px 15px 15px 0; }
+
+  #contact {
+    background-color: #222222;
+    padding: 100px 30px 30px 30px; }
+
+  .contactHeading {
+    font: 400 16px "Roboto";
+    color: #f2f2f2;
+    margin-bottom: 20px; }
+
+  .contactHeading:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 27px;
+    background-color: transparent;
+    background: url("../img/locationPointer.png");
+    left: 18px;
+    top: 25%;
+    transform: translate(-5px, 5px); }
+
+  .address {
+    font: 400 16px "Roboto";
+    margin: 0 0 60px 0;
+    color: #666666;
+    line-height: 1.5;
+    text-align: left; }
+
+  .twitterBttm {
+    vertical-align: middle;
+    margin-right: 50px; }
+
+  .linkedIn {
+    vertical-align: middle;
+    margin: 0 30px 0 0; }
+
+  .website_link {
+    float: right;
+    font: 300 14px "Roboto";
+    color: #666666;
+    line-height: 2.5; }
+
+  .contactInfo {
+    display: block;
+    width: auto;
+    height: 100%;
+    vertical-align: auto; }
+
+  .settingInLine {
+    position: static;
+    top: 0; }
+
+  .tabletContactInFooter {
+    display: none; }
+
+  .linkedInTablet, .twitterBttmTablet, .website_linkTablet {
+    display: none; }
+
+  .mobileSocialContact {
+    display: block; } }
+.clearfix {
+  clear: both; }
+
+.clearfixInlineBlock {
+  clear: both;
+  display: inline-block; }
+
+/*# sourceMappingURL=style.css.map */
