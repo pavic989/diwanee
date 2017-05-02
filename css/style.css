@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:500");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
 @import url("https://fonts.googleapis.com/css?family=Roboto:700");
-@media screen and (max-width: 64em) {
+@media screen and (max-width: 1024px) {
   header {
     position: relative;
     background: rgba(239, 233, 219, 0.1);
@@ -446,10 +446,14 @@
 
   .sectionBg {
     background: #ededed;
-    padding-bottom: 54px; }
+    padding: 0 0 66px 0;
+    display: block;
+    width: 100%; }
 
   .sectionNoBg {
-    padding-bottom: 54px; }
+    padding: 0 0 54px 0;
+    display: block;
+    width: 100%; }
 
   .logoClass {
     display: block;
@@ -484,13 +488,15 @@
     text-align: center; }
 
   .sectionPoslovi {
-    width: 100%; }
+    width: 100%;
+    padding: 145px 0 0 0; }
 
   .smallHeadings {
     font: 400 14px "Roboto";
     color: #999999;
     text-align: center;
-    margin-top: 0; }
+    margin-top: 0;
+    display: block; }
 
   .smallHeadingsTablet {
     display: none; }
