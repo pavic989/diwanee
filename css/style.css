@@ -25,7 +25,7 @@
     header .hidden {
       display: none; }
     header .showTablet {
-      font: 33px/1.25 Helvetica;
+      font: 24/1.25 Helvetica;
       text-align: center; }
 
   .desktopHeaderLine {
@@ -357,7 +357,7 @@
     header .hidden {
       display: none; }
     header .showTablet {
-      font: 33px/1.25 Helvetica;
+      font: 24px/1.25 Helvetica;
       text-align: center; }
 
   .desktopHeaderLine {
