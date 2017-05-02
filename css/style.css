@@ -707,12 +707,11 @@
     header p {
       font: 400 20px "Roboto";
       text-align: center;
-      margin: 60px 12.5% 0 12.5%; }
+      margin: 60px 0 0 0; }
     header .hidden {
       display: inline;
       font: 400 20px "Roboto";
-      text-align: center;
-      margin-top: 60px; }
+      text-align: center; }
     header .showTablet {
       display: none; }
 
