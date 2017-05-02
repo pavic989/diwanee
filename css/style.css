@@ -81,19 +81,19 @@
     display: inline-block;
     background: #ededed;
     width: 33.3%;
-    padding: 0 0 65px 0;
+    padding: 0 0 73px 0;
     vertical-align: top; }
 
   .sectionNoBg {
     display: inline-block;
     width: 33.3%;
-    padding: 0 0 65px 0;
+    padding: 0 0 73px 0;
     vertical-align: top; }
 
   .logoClass {
     display: block;
     position: relative;
-    top: 48px;
+    top: 95px;
     margin: 0 auto;
     vertical-align: top; }
 
@@ -112,18 +112,20 @@
 
   .sectionHeadlines {
     display: block;
-    margin: 99px 0 0 0;
+    margin: 130px 0 0 0;
     font: 700 28.2px/0.851 "Roboto";
     color: #222222;
     text-align: center; }
 
   .sectionPoslovi {
-    padding: 230px 21.4% 135px 21.4%; }
+    padding: 138px 25.97%; }
+
+  .otvorenePozicije {
+    font: 400 14px "Roboto";
+    color: #999999;
+    text-align: center; }
 
   .smallHeadings {
-    display: none; }
-
-  .smallHeadingsTablet {
     font: 400 14px "Roboto";
     color: #999999;
     text-align: center; }
@@ -137,16 +139,16 @@
   .lineRed {
     width: 56px;
     border-bottom: 2px solid #c41230;
-    margin: 53px auto 0 auto; }
+    margin: 46px auto 0 auto; }
 
   .jobsSectionWithBg {
     position: relative;
-    padding: 30px 0 38px 21.2%; }
+    padding: 30px 20.83% 38px 20.83%; }
 
   .jobsSectionNoBg {
     position: relative;
     background: #222222;
-    padding: 30px 0 38px 21.2%; }
+    padding: 30px 20.83% 38px 20.83%; }
 
   .tabletColorTextProjectMenager {
     color: #f2f2f2 !important; }
@@ -165,11 +167,11 @@
     background: transparent;
     letter-spacing: 2px;
     top: 50%;
-    right: 9.18%;
+    right: 21%;
     transform: translate(0%, -50%); }
 
   .posloviText {
-    margin: 41px 30px 80px 30px;
+    margin: 65px 0 0 0;
     text-align: center;
     font: 300 24px/1.5 "Roboto";
     color: #222222; }
@@ -185,7 +187,7 @@
     background: transparent;
     position: relative;
     top: 50%;
-    right: 9.18%;
+    right: 21%;
     transform: translate(0%, -50%); }
 
   .posloviHoverText {
@@ -229,7 +231,7 @@
     width: 44.7%; }
 
   #loadMoreJobs {
-    margin: 76px auto 0 auto;
+    margin: 141px auto 0 auto;
     display: block;
     text-align: center;
     background-color: rgba(215, 215, 215, 0.42);
@@ -244,29 +246,28 @@
     font: 400 50px "Roboto";
     color: #222222;
     text-align: center;
-    margin: 40px auto; }
+    margin: 60px auto; }
 
   .digitalMediaCompanyText {
     font: 300 18px/1.667 "Roboto";
     color: #222222;
-    text-align: justify;
-    margin: 63px 23px; }
+    text-align: left;
+    margin: 63px 0 0 0; }
 
   .followUs {
     text-align: center;
-    margin: 150px 0 0 0;
-    padding: 0 0 57px 0; }
+    margin: 150px 0 0 0; }
     .followUs p {
       font: 400 14px "Roboto";
-      color: #999999; }
+      color: #999999;
+      margin: 238px 0 0 0; }
     .followUs div {
       margin: 0 auto;
       width: 188px; }
       .followUs div .twitter {
-        padding: 15px;
-        float: left; }
+        padding: 26px 4.5px 0 0; }
       .followUs div .facebook {
-        padding: 15px 15px 15px 0; }
+        padding: 26px 0 0 4.5px; }
 
   #contact {
     background-color: #222222;
@@ -473,10 +474,12 @@
   .sectionPoslovi {
     padding: 230px 100px 135px 100px; }
 
-  .smallHeadings {
-    display: none; }
+  .otvorenePozicije {
+    font: 400 14px "Roboto";
+    color: #999999;
+    text-align: center; }
 
-  .smallHeadingsTablet {
+  .smallHeadings {
     font: 400 14px "Roboto";
     color: #999999;
     text-align: center; }
@@ -716,7 +719,7 @@
     background: #1e1e1e;
     padding: 13px 0; }
     footer p {
-      display: inline;
+      display: block;
       font: 300 12px "Roboto";
       color: rgba(242, 242, 242, 0.102);
       text-align: center;
@@ -724,6 +727,8 @@
       position: static;
       top: 0;
       transform: none; }
+      footer p span {
+        display: none; }
 
   #hamburger_menu {
     height: 24px;
