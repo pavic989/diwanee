@@ -54,7 +54,7 @@
   nav {
     display: inline-block;
     position: relative;
-    top: 43px;
+    top: 40px;
     left: calc(44.6% - 45px);
     background: transparent;
     z-index: 500; }
@@ -199,6 +199,7 @@
     display: none; }
 
   .skills {
+    display: inline-block;
     border: 1px solid #bbbbbb;
     border-radius: 2px;
     font: 400 14px "Roboto";
@@ -551,6 +552,7 @@
     display: none; }
 
   .skills {
+    display: inline-block;
     border: 1px solid #bbbbbb;
     border-radius: 2px;
     font: 400 14px "Roboto";
@@ -620,7 +622,7 @@
 
   #contact {
     background-color: #222222;
-    padding: 100px 30px;
+    padding: 100px 6.8%;
     font-size: 0; }
 
   .contactHeading {
@@ -1011,5 +1013,8 @@
 .clearfixInlineBlock {
   clear: both;
   display: inline-block; }
+
+#scroller-top-button {
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

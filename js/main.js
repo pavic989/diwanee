@@ -20,4 +20,4 @@ $(document).ready(function(){
 })
 
 
-
+$('a[data-scroll]').scroller();
