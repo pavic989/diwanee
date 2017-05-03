@@ -9,17 +9,17 @@
 		-o-background-size: cover
 		background-size: cover
 		h1
-			font: 500 375% 'Roboto'
-			margin-top: 128px
+			font: 500 375% $font-main
+			margin-top: 111px
 			text-align: center
 			color: rgb( 34, 34, 34)
 		p
-			font: 400 20px 'Roboto'
+			font: 400 20px $font-main
 			text-align: center
 			margin: 60px 0 0 0
 		.hidden
 			display: inline
-			font: 400 20px 'Roboto'
+			font: 400 20px $font-main
 			text-align: center
 		.showTablet
 			display: none
@@ -33,7 +33,7 @@
 		padding: 13px 0
 		p
 			display: block
-			font: 300 12px 'Roboto' 									// FOOTER SETTINGS
+			font: 300 12px $font-main 									// FOOTER SETTINGS
 			color: rgba(242, 242, 242, 0.102)
 			text-align: center
 			float: none
@@ -74,7 +74,7 @@
 				text-align: center
 				display: block
 				a
-					font: 300 24px/3.25 'Roboto'
+					font: 300 24px/3.25 $font-main
 					color: rgb(204, 204, 204)
 					text-align: center
 					text-decoration: none
@@ -84,7 +84,7 @@
 		bottom: 35px
 		span
 			float: left
-			font: 400 16px 'Roboto'														// FOLLOW US SOCIAL ICONS IN DROPDOWN MENU
+			font: 400 16px $font-main														// FOLLOW US SOCIAL ICONS IN DROPDOWN MENU
 			color: rgba(204, 204, 204, 0.502)
 			margin-left: 20px
 			text-align: center
@@ -110,7 +110,7 @@
 	.contentText
 		margin: 34px 11px 0px 11px 
 		top: 170px
-		font: 300 18px/1.667 'Roboto'
+		font: 300 18px/1.667 $font-main
 		color: rgb(102, 102, 102)
 		text-align: center
 	.line
@@ -125,24 +125,24 @@
 	.sectionHeadlines
 		display: block
 		margin-top: 99px
-		font: 700 20px 'Roboto'
+		font: 700 20px $font-main
 		letter-spacing: 5px
-		color: rgb(34, 34, 34)
+		color: $bg-color
 		text-align: center
 	.sectionPoslovi
 		width: 100%
 		padding: 145px 0 0 0
 	.smallHeadings
-		font: 400 14px 'Roboto'
-		color: rgb(153, 153, 153)
+		font: 400 14px $font-main
+		color: $small-text-color
 		text-align: center
 		margin-top: 0
 		display: block
 	.smallHeadingsTablet
 		display: none
 	.poslovi
-		font: 500 40px 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 500 40px $font-main
+		color: $bg-color
 		text-align: center
 		margin-top: 20px
 	.posloviHover
@@ -158,7 +158,7 @@
 	.tabletHoverProjectMenager
 		display: none
 		position: absolute !important
-		color: rgb(34, 34, 34) !important
+		color: $bg-color !important
 		width: 165px
 		height: 44px
 		border-width: 2px solid rgb(242, 242, 242) !important
@@ -174,12 +174,12 @@
 	.posloviText
 		margin: 41px 30px 80px 30px
 		text-align: center
-		font: 300 20px 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 300 20px $font-main
+		color: $bg-color
 		line-height: 1.5
 	.html_css_js
 		display: inline-block
-		font: 300 14px 'Roboto'
+		font: 300 14px $font-main
 		color: rgb(196, 18, 48) !important
 		text-align: left
 		margin: 20px 0 0 0
@@ -187,13 +187,13 @@
 		display: none
 	.jobsHeading
 		display: block
-		font: 500 18px 'Roboto'
-		color: rgb(34, 34, 34) !important
+		font: 500 18px $font-main
+		color: $bg-color !important
 		text-align: left
 
 	.jobsText
-		font: 300 15px/1.56 "Roboto"
-		color: rgb(34, 34, 34) !important
+		font: 300 15px/1.56 $font-main
+		color: $bg-color !important
 		line-height: 1.333													
 		text-align: left
 		margin-top: 20px
@@ -209,18 +209,18 @@
 		border: none
 
 		.ucitaj_jos_pozicija
-			font: 400 14px 'Roboto'											// UCITAJ JOS POZICIJA TEXT
+			font: 400 14px $font-main											// UCITAJ JOS POZICIJA TEXT
 			color: rgb(51, 51, 51)
 			letter-spacing: 2px
 	.digitalMediaCompany
-		font: 500 40px 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 500 40px $font-main
+		color: $bg-color
 		text-align: center
 		width: 188px
 		margin: 40px auto 
 	.digitalMediaCompanyText
-		font: 300 18px 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 300 18px $font-main
+		color: $bg-color
 		text-align: left
 		line-height: 1.667
 		margin: 45px 23px
@@ -229,8 +229,8 @@
 		margin: 150px 0 0 0														// FOLLOWUS IN .SECTIONPOSLOVI (SOCIAL)
 		padding: 0 0 57px 0
 		p
-			font: 400 14px 'Roboto'
-			color: rgb(153, 153, 153)
+			font: 400 14px $font-main
+			color: $small-text-color
 		div
 			margin: 0 auto
 			width:  188px
@@ -240,10 +240,10 @@
 			.facebook
 				padding: 15px 15px 15px 0
 	#contact
-		background-color: rgb(34, 34, 34)
+		background-color: $bg-color
 		padding: 100px 30px 30px 30px														// MAIN #CONTACT HOLDER DIV
 	.contactHeading
-		font: 400 16px 'Roboto'													// HEADINGS IN #CONTACT
+		font: 400 16px $font-main													// HEADINGS IN #CONTACT
 		color: rgb(242, 242, 242)
 		margin-bottom: 20px
 	.contactHeading:before
@@ -257,7 +257,7 @@
 		top: 25%
 		transform: translate( -5px, 5px)
 	.address
-		font: 400 16px 'Roboto'
+		font: 400 16px $font-main
 		margin: 0 0 60px 0											// ADDRESSES IN #CONTACT
 		color: rgb(102, 102, 102)
 		line-height: 1.5
@@ -270,7 +270,7 @@
 		margin: 0 30px 0 0
 	.website_link																
 		float: right
-		font: 300 14px 'Roboto' 									// SOCIAL ICONS AND WEBSITE IN #CONTACT
+		font: 300 14px $font-main 									// SOCIAL ICONS AND WEBSITE IN #CONTACT
 		color: rgb(102, 102, 102)
 		line-height: 2.5
 	.contactInfo
@@ -287,6 +287,11 @@
 		display: none
 	.mobileSocialContact
 		display: block
-
-
+	.clearfix
+		clear: both
+	.clearfixInlineBlock
+		clear: both
+		display: inline-block
+	#scroller-top-button
+		display: none
 

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto:700");
 @import url("https://fonts.googleapis.com/css?family=Roboto:500");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
-@import url("https://fonts.googleapis.com/css?family=Roboto:700");
 @media screen and (min-width: 1025px) {
   header {
     position: relative;
@@ -333,7 +333,17 @@
     float: right;
     display: block;
     top: 50%;
-    transform: translateY(-50%); } }
+    transform: translateY(-50%); }
+
+  .clearfix {
+    clear: both; }
+
+  .clearfixInlineBlock {
+    clear: both;
+    display: inline-block; }
+
+  #scroller-top-button {
+    display: none; } }
 @media screen and (max-width: 1024px) {
   header {
     position: relative;
@@ -688,7 +698,17 @@
     display: block;
     top: 50%;
     transform: translateY(-50%);
-    margin: 5px 0 0 0; } }
+    margin: 5px 0 0 0; }
+
+  .clearfix {
+    clear: both; }
+
+  .clearfixInlineBlock {
+    clear: both;
+    display: inline-block; }
+
+  #scroller-top-button {
+    display: none; } }
 @media screen and (max-width: 320px) {
   header {
     position: relative;
@@ -701,7 +721,7 @@
     background-size: cover; }
     header h1 {
       font: 500 375% "Roboto";
-      margin-top: 128px;
+      margin-top: 111px;
       text-align: center;
       color: #222222; }
     header p {
@@ -1018,15 +1038,16 @@
     display: none; }
 
   .mobileSocialContact {
-    display: block; } }
-.clearfix {
-  clear: both; }
+    display: block; }
 
-.clearfixInlineBlock {
-  clear: both;
-  display: inline-block; }
+  .clearfix {
+    clear: both; }
 
-#scroller-top-button {
-  display: none; }
+  .clearfixInlineBlock {
+    clear: both;
+    display: inline-block; }
+
+  #scroller-top-button {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */

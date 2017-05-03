@@ -9,13 +9,13 @@
 		-o-background-size: cover
 		background-size: cover
 		h1
-			font: 500 77.2px 'Roboto'
+			font: 500 77.2px $font-main
 			margin-top: calc(167px - 13%)
 			text-align: center
 			color: rgb( 34, 34, 34)
 		p
 			font: 24px/1.25 "Helvetica"
-			color: rgb(34, 34, 34)
+			color: $bg-color
 			text-align: center
 			margin: 60px 23.145% 0 23.145%
 		.hidden
@@ -33,7 +33,7 @@
 		padding: 27px 6.543%
 		margin-top: -1px
 		p
-			font: 300 12px 'Roboto'
+			font: 300 12px $font-main
 			color: rgba(242, 242, 242, 0.102)
 			text-align: left
 			display: inline-block
@@ -71,7 +71,7 @@
 				text-align: center
 				display: block
 				a
-					font: 300 24px/3.25 'Roboto'
+					font: 300 24px/3.25 $font-main
 					color: rgb(204, 204, 204)
 					text-align: center
 					text-decoration: none
@@ -81,7 +81,7 @@
 		bottom: 35px
 		span
 			float: left
-			font: 400 16px 'Roboto'
+			font: 400 16px $font-main
 			color: rgba(204, 204, 204, 0.502)
 			margin: 0 0 0 20px
 			text-align: center
@@ -110,7 +110,7 @@
 		vertical-align: top
 	.contentText
 		margin: 26px 0 0 0 
-		font: 300 24px/1.647 'Roboto'
+		font: 300 24px/1.647 $font-main
 		color: rgb(102, 102, 102)
 		text-align: center
 	.line
@@ -122,22 +122,22 @@
 	.sectionHeadlines
 		display: block
 		margin: 77px 0 0 0
-		font: 700 28.2px/0.851 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 700 28.2px/0.851 $font-main
+		color: $bg-color
 		text-align: center
 	.sectionPoslovi
 		padding: 231px 9.961% 137px 9.961%
 	.otvorenePozicije
-		font: 400 14px 'Roboto'
-		color: rgb(153, 153, 153)
+		font: 400 14px $font-main
+		color: $small-text-color
 		text-align: center
 	.smallHeadings
-		font: 400 14px 'Roboto'
-		color: rgb(153, 153, 153)
+		font: 400 14px $font-main
+		color: $small-text-color
 		text-align: center
 	.poslovi
-		font: 400 50px 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 400 50px $font-main
+		color: $bg-color
 		text-align: center
 		margin: 45px 0 0 0
 	.lineRed
@@ -149,13 +149,13 @@
 		padding: 30px 8.984% 38px 8.984%
 	.jobsSectionNoBg
 		position: relative
-		background: rgb(34, 34, 34)
+		background: $bg-color
 		padding: 30px 8.984% 38px 8.984%
 	.tabletColorTextProjectMenager
 		color: rgb(242, 242, 242) !important
 	.tabletHoverProjectMenager
 		display: none
-		font: 400 14px 'Roboto'
+		font: 400 14px $font-main
 		position: absolute 
 		color: rgb(242, 242, 242) !important
 		width: 165px
@@ -172,14 +172,14 @@
 	.posloviText
 		margin: 55px 0 0 0
 		text-align: center
-		font: 300 24px/1.5 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 300 24px/1.5 $font-main
+		color: $bg-color
 	.posloviHover
 		display: none
 		position: absolute !important
 		width: 165px
 		height: 44px
-		border: 2px solid rgb(34, 34, 34)
+		border: 2px solid $bg-color
 		border-radius: 2px
 		text-align: center
 		background: transparent
@@ -189,8 +189,8 @@
 		transform: translate(0%,-50%)
 
 	.posloviHoverText
-		font: 400 14px 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 400 14px $font-main
+		color: $bg-color
 		text-align: center
 		letter-spacing: 2px
 		padding: 0
@@ -201,7 +201,7 @@
 		display: inline-block 
 		border: 1px solid rgb(187, 187, 187)
 		border-radius: 2px					// JOBS SKILLS FOR TABLET AND DESKTOP
-		font: 400 14px 'Roboto'
+		font: 400 14px $font-main
 		color: rgb(196, 18, 48)
 		padding: 12px 13px
 		text-align: center
@@ -212,12 +212,12 @@
 		margin: 0 0 0 15px
 	.jobsHeading
 		display: block
-		font: 500 18px 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 500 18px $font-main
+		color: $bg-color
 		text-align: left
 	.jobsText
 		font: 300 15px/1.56 "Roboto" 
-		color: rgb(34, 34, 34) 
+		color: $bg-color 
 		text-align: left
 		margin: 20px 0 0 0
 		width: 44.7%
@@ -231,24 +231,24 @@
 		border: none
 
 		.ucitaj_jos_pozicija
-			font: 400 14px 'Roboto'
+			font: 400 14px $font-main
 			color: rgb(51, 51, 51)
 	.digitalMediaCompany
-		font: 400 50px 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 400 50px $font-main
+		color: $bg-color
 		text-align: center
 		margin: 40px auto 
 	.digitalMediaCompanyText
-		font: 300 18px/1.667 'Roboto'
-		color: rgb(34, 34, 34)
+		font: 300 18px/1.667 $font-main
+		color: $bg-color
 		margin: 45px 0 0 0
 	.followUs
 		text-align: center
 		margin: 230px 0 0 0
 		padding: 0
 		p
-			font: 400 14px 'Roboto'
-			color: rgb(153, 153, 153)
+			font: 400 14px $font-main
+			color: $small-text-color
 		div
 			margin: 0 auto
 			width:  188px
@@ -259,11 +259,11 @@
 
 
 	#contact
-		background-color: rgb(34, 34, 34)
+		background-color: $bg-color
 		padding: 147px 0 104px 13% 
 		font-size: 0
 	.contactHeading
-		font: 400 16px 'Roboto'
+		font: 400 16px $font-main
 		color: rgb(242, 242, 242)
 		margin: 0 0 30px 0
 	.contactHeading:before
@@ -277,7 +277,7 @@
 		top: 25%
 		transform: translate( -11px, 5px)
 	.address
-		font: 400 15px/1.6 'Roboto' 
+		font: 400 15px/1.6 $font-main 
 		color: rgb(102, 102, 102)
 		text-align: left
 	.contactInfo
@@ -301,7 +301,7 @@
 	.website_linkTablet
 		display: inline-block
 		vertical-align: middle
-		font: 300 14px/2.5 'Roboto'
+		font: 300 14px/2.5 $font-main
 		color: rgb(102, 102, 102)
 	.tabletContactInFooter
 		position: relative
@@ -310,4 +310,10 @@
 		top: 50%
 		transform: translateY(-50%)
 		margin: 5px 0 0 0
-	
+	.clearfix
+		clear: both
+	.clearfixInlineBlock
+		clear: both
+		display: inline-block
+	#scroller-top-button
+		display: none
