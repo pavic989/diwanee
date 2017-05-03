@@ -1,6 +1,10 @@
 $(document).ready(function(){
 	$('#hamburger_menu').on('click', function(){
-		$('nav').slideToggle('slow');
+		$('nav').slideToggle('slow', function(){
+			$('li').on('click',function(){
+				$('nav').slideUp('slow');
+			})
+		});
 	});
 	$(document).ready(function(){
 		var displaySize = $(window).width();
