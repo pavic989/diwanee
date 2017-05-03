@@ -175,6 +175,9 @@
     right: 21%;
     transform: translate(0%, -50%); }
 
+  .tabletHoverProjectMenager:hover {
+    cursor: pointer; }
+
   .posloviText {
     margin: 65px 0 0 0;
     text-align: center;
@@ -194,6 +197,9 @@
     top: 50%;
     right: 21%;
     transform: translate(0%, -50%); }
+
+  .posloviHover:hover {
+    cursor: pointer; }
 
   .posloviHoverText {
     font: 400 14px "Roboto";
@@ -242,10 +248,13 @@
     background-color: rgba(215, 215, 215, 0.42);
     height: 52px;
     width: 222px;
-    border: none; }
-    #loadMoreJobs .ucitaj_jos_pozicija {
-      font: 400 14px "Roboto";
-      color: #333333; }
+    border: none;
+    font: 400 14px "Roboto";
+    color: #333333;
+    letter-spacing: 2px; }
+
+  #loadMoreJobs:hover {
+    cursor: pointer; }
 
   .digitalMediaCompany {
     font: 400 50px "Roboto";
@@ -539,6 +548,9 @@
     right: 9.18%;
     transform: translate(0%, -50%); }
 
+  .tabletHoverProjectMenager:hover {
+    cursor: pointer; }
+
   .posloviText {
     margin: 55px 0 0 0;
     text-align: center;
@@ -558,6 +570,9 @@
     top: 50%;
     right: 9.18%;
     transform: translate(0%, -50%); }
+
+  .posloviHover:hover {
+    cursor: pointer; }
 
   .posloviHoverText {
     font: 400 14px "Roboto";
@@ -605,10 +620,13 @@
     background-color: rgba(215, 215, 215, 0.42);
     height: 52px;
     width: 222px;
-    border: none; }
-    #loadMoreJobs .ucitaj_jos_pozicija {
-      font: 400 14px "Roboto";
-      color: #333333; }
+    border: none;
+    font: 400 14px "Roboto";
+    color: #333333;
+    letter-spacing: 2px; }
+
+  #loadMoreJobs:hover {
+    cursor: pointer; }
 
   .digitalMediaCompany {
     font: 400 50px "Roboto";
@@ -942,11 +960,13 @@
     background-color: rgba(215, 215, 215, 0.42);
     height: 52px;
     width: 222px;
-    border: none; }
-    #loadMoreJobs .ucitaj_jos_pozicija {
-      font: 400 14px "Roboto";
-      color: #333333;
-      letter-spacing: 2px; }
+    border: none;
+    font: 400 14px "Roboto";
+    color: #333333;
+    letter-spacing: 2px; }
+
+  #loadMoreJobs:hover {
+    cursor: pointer; }
 
   .digitalMediaCompany {
     font: 500 40px "Roboto";
