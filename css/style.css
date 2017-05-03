@@ -412,7 +412,7 @@
 
   .logo {
     float: left;
-    margin: 26px 0 30px 56px; }
+    margin: 26px 0 26px 56px; }
 
   .logoDesktop {
     display: none; }
@@ -422,7 +422,7 @@
     position: absolute;
     background: rgba(38, 38, 38, 0.98);
     width: 100%;
-    height: calc(100% - 90px);
+    height: calc(100% - 86px);
     z-index: 500; }
     nav ul {
       position: relative;
@@ -756,7 +756,7 @@
     display: none; }
 
   .header-line {
-    height: 69px;
+    height: 65px;
     width: 100%; }
 
   footer {
@@ -797,7 +797,7 @@
     position: absolute;
     background: rgba(38, 38, 38, 0.98);
     width: 100%;
-    height: calc(100% - 69px);
+    height: calc(100% - 65px);
     z-index: 500; }
     nav ul {
       position: relative;
