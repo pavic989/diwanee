@@ -18,14 +18,18 @@
       text-align: center;
       color: #222222; }
     header p {
-      font: 24px/1.25 "Helvetica";
+      font-size: 24px;
+      line-height: 1.25;
+      font-family: "Helvetica";
       color: #222222;
       text-align: center;
       margin: 46px 30.694% 0 30.694%; }
     header .hidden {
       display: none; }
     header .showTablet {
-      font: 24/1.25 Helvetica;
+      font-size: 24px;
+      line-height: 1.25;
+      font-family: "Helvetica";
       text-align: center; }
 
   .desktopHeaderLine {
@@ -369,14 +373,18 @@
       text-align: center;
       color: #222222; }
     header p {
-      font: 24px/1.25 "Helvetica";
+      font-size: 24px;
+      line-height: 1.25;
+      font-family: "Helvetica";
       color: #222222;
       text-align: center;
       margin: 60px 23.145% 0 23.145%; }
     header .hidden {
       display: none; }
     header .showTablet {
-      font: 24px/1.25 Helvetica;
+      font-size: 24px;
+      line-height: 1.25;
+      font-family: "Helvetica";
       text-align: center; }
 
   .desktopHeaderLine {
@@ -737,7 +745,7 @@
     -o-background-size: cover;
     background-size: cover; }
     header h1 {
-      font: 500 375% "Roboto";
+      font: 500 60px "Roboto";
       margin-top: 111px;
       text-align: center;
       color: #222222; }
