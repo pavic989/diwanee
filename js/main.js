@@ -9,7 +9,7 @@ $(document).ready(function(){
 
 		if( displaySize > 320){
 			$('.jobsSectionWithBg').hover(function(){
-				$(this).find('.posloviHover').fadeToggle('slow');
+				$(this).find('.jobsAdHover').fadeToggle('slow');
 			});
 			projectMenagerParent.hover(function(){
 				projectMenagerChild.fadeToggle('slow');

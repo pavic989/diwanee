@@ -178,13 +178,13 @@
   .tabletHoverProjectMenager:hover {
     cursor: pointer; }
 
-  .posloviText {
+  .jobsAdText {
     margin: 65px 0 0 0;
     text-align: center;
     font: 300 24px/1.5 "Roboto";
     color: #222222; }
 
-  .posloviHover {
+  .jobsAdHover {
     display: none;
     position: absolute !important;
     width: 165px;
@@ -198,10 +198,10 @@
     right: 21%;
     transform: translate(0%, -50%); }
 
-  .posloviHover:hover {
+  .jobsAdHover:hover {
     cursor: pointer; }
 
-  .posloviHoverText {
+  .jobsAdHoverText {
     font: 400 14px "Roboto";
     color: #222222;
     text-align: center;
@@ -551,13 +551,13 @@
   .tabletHoverProjectMenager:hover {
     cursor: pointer; }
 
-  .posloviText {
+  .jobsAdText {
     margin: 55px 0 0 0;
     text-align: center;
     font: 300 24px/1.5 "Roboto";
     color: #222222; }
 
-  .posloviHover {
+  .jobsAdHover {
     display: none;
     position: absolute !important;
     width: 165px;
@@ -571,10 +571,10 @@
     right: 9.18%;
     transform: translate(0%, -50%); }
 
-  .posloviHover:hover {
+  .jobsAdHover:hover {
     cursor: pointer; }
 
-  .posloviHoverText {
+  .jobsAdHoverText {
     font: 400 14px "Roboto";
     color: #222222;
     text-align: center;
@@ -885,13 +885,13 @@
   .smallHeadingsTablet {
     display: none; }
 
-  .poslovi {
+  .jobs {
     font: 500 40px "Roboto";
     color: #222222;
     text-align: center;
     margin-top: 20px; }
 
-  .posloviHover {
+  .jobsAdHover {
     display: none; }
 
   .jobsSectionWithBg {
@@ -922,7 +922,7 @@
     display: none;
     color: #f2f2f2 !important; }
 
-  .posloviText {
+  .pText {
     margin: 41px 30px 80px 30px;
     text-align: center;
     font: 300 20px "Roboto";
