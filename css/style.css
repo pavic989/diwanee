@@ -7,7 +7,7 @@
     position: relative;
     background: rgba(239, 233, 219, 0.1);
     padding: 0 0 245px 0;
-    background: url("../img/bgDesktop.png") no-repeat center center;
+    background: url("../img/bgDesktop.png") no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -358,7 +358,7 @@
     position: relative;
     background: rgba(239, 233, 219, 0.1);
     padding: 0 0 123px 0;
-    background: url("../img/bgDesktop.png") no-repeat center center;
+    background: url("../img/bgDesktop.png") no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -731,7 +731,7 @@
     position: relative;
     background: #efe9db;
     padding-bottom: 200px;
-    background: url("../img/bgImg.png") no-repeat center center;
+    background: url("../img/bgImg.png") no-repeat 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
