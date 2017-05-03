@@ -397,9 +397,8 @@
     margin: 27px 25px 0 0; }
 
   .line1, .line2, .line3 {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #000333;
     margin: 0 0 6px 0;
-    border-color: #000333;
     border-radius: 5px; }
 
   .logo {
@@ -764,9 +763,8 @@
     margin: 23px 20px 0 0; }
 
   .line1, .line2, .line3 {
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #000333;
     margin: 0 0 6px 0;
-    border-color: #000333;
     border-radius: 5px; }
 
   .logo {
